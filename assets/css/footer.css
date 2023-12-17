@@ -1,0 +1,17 @@
+.divider {
+    color:#262626;
+    opacity: 1;
+}
+
+.footer-text {
+    line-height: 28px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.footer-block {
+    margin: 0 100px;
+}

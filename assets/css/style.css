@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background-color: #F5EBEB;
+}
+
+.head_inform {
+    margin: 0;
+    text-align: center;
+    background-color: #BC6767;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 40px 0;
+    max-width: 1200px;
+    margin: auto 0 auto 90px;
+}
+
+.logo {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.nav1 {
+    display: flex;
+    margin: auto;
+}
+
+.nav_item {
+    flex-grow: 1;
+    padding: 60px 3em 0 3em;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+}
+
+.nav_item:hover {
+    color: #D5B4B4;
+
+    &:after {
+        content: '';
+        width: 90%;
+        height: 1px;
+        display: block;
+        margin: 0 auto;
+        border-bottom: 1px solid #D5B4B4;
+    }
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #262626;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    /*固定選單列*/
+}
