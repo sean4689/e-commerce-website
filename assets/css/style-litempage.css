@@ -1,0 +1,110 @@
+body{background-color: #F5EBEB;
+     font-family: 'Noto Sans TC';} 
+.itemimg{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+li{
+    list-style: none;
+}
+.shopee-input-quantity{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bt{
+    background-color: #F5EBEB;
+    font-size: 20px;
+    
+}
+.itemcount{
+    outline: none;
+    background-color: #F5EBEB;
+    text-align: center;
+    width: 70%;
+    border-color: black;
+}
+.ptext{
+    color:#6D3A3A ;
+}
+.cartimg{
+    width: 20px;
+}
+.Functionbutton{
+    margin-top: 10%;
+    margin-bottom: 7%;
+}
+.itemtop_p{
+    background-color: #F5EBEB;
+    border: none;
+    border-bottom:5px solid #867070 ;
+    font-size: 20px;
+}
+.itemtop_p:hover{
+    background-color: #867070;
+}
+.Functionp{
+    border-left:5px solid #867070;
+    padding-left: 5px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.Specification{
+    margin-bottom: 5%;
+}
+.Introduction{
+    font-size: 18px;
+    color: #262626;
+}
+.shopee-product-rating{
+    
+}
+.shopee-product-rating-box{
+    margin-bottom: 100px;
+}
+.star{
+    padding-left: 80px;
+}
+.checked {
+    color: gold;
+  }
+.commenttext{
+    padding-left: 80px;
+    margin-top: 10px;
+}
+.upload-rating{
+    background-color: #F8F1F1;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px 1px rgba(93, 79, 79, 0.7);
+}
+#star-rating {
+    display: inline-flex;
+    background: transparent;
+    direction: rtl;
+  }
+  
+#star-rating input[type="radio"] {
+display: none;
+}
+
+#star-rating label {
+display: block;
+width: 20px;
+height: 20px;
+font-size: 20px;
+color: grey;
+cursor: pointer;
+}
+
+#star-rating input[type="radio"]:checked ~ label,
+#star-rating label:hover,
+#star-rating label:hover ~ label {
+color: gold;
+}
+
+.commentup{
+    background-color: #F8F1F1;
+}
+.btn-black{
+    background-color:#867070 ;
+    color: #262626;
+}
