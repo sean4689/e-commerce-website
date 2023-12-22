@@ -1,0 +1,14 @@
+body{background-color: #F5EBEB;
+    font-family: 'Noto Sans TC';} 
+.jcsa{
+    justify-content: space-around;
+}
+.ohr{
+    border: 1px solid ;
+    opacity:0.5;
+    
+}
+.fhr{
+    border: 2px solid #867070;
+    opacity:1;
+}

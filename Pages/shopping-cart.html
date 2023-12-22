@@ -2,19 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>會員登入</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style-login.css">
+    <title>Daphne | 精緻生活</title>
+    <link rel="icon" href="img/logo_nobg.ico" type="image/icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style-cart.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <style></style>
 </head>
 <body>
-    <body>
-    <body>
     <nav class="navbar navbar-expand-lg sticky-md-top mb-5" style="background-color: #F5EBEB;">
         <div class="container">
           <a class="navbar-brand mx-auto" href="index.html">
@@ -25,7 +22,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-   
+    
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="nav1">
               <ul class="navbar-nav mb-2 mb-md-0 px-4">
@@ -52,7 +49,7 @@
                   <li class="nav-item mx-lg-3 pt-lg-5">
                     <a class="nav-link active" aria-current="page" href="contact.html">聯絡我們</a>
                   </li>
-   
+    
                   <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md">
                     <a class="nav-link active nav-icon-md-1" aria-current="page" href="shopping-cart.html">
                       <img src="../assets/img/shopping-cart.png">
@@ -91,43 +88,133 @@
               </div>
             </div>
           </div>
-          <hr>
         </nav>
-    <div class="container ">
-        <div class="formw">
-            <div class="row">
-                <div class="col-sm-6 mx-auto " >
-                    <form >
-                        <div class="row justify-content-center text-center pt-5">
-                            <div class="col-sm-4 h3 backg1 ">
-                                <a href="user-login.html" class="nav_item"><span class="pe-2">登入</span></a>
-                            </div>  
-                            <div class="col-sm-4 h3 backg2">
-                                <a href="registration.html" class="nav_item"><span class="pe-2">註冊</span></a>
-                            </div> 
+
+    <div class="container text-center mx-auto w-50 " style="padding:20px ; background-color: #FFF5F5; margin: 50px; border-radius: 10px;">
+        <table class="col-12 mx-auto">
+            <thead>
+            <tr>
+                <th >商品名稱</th>
+                <th >規格</th>
+                <th >數量</th>
+                <th >單價</th>
+                <th >小計</th>
+                <th ></th>
+            </tr>
+            </thead>
+            <tbody class="table-group-divider">
+            <tr>
+                <td scope="row">XXXXXXXXX</td>
+                <td>XXXXXXX</td>
+                <td>1</td>
+                <td>$999</td>
+                <td>$999</td>
+                <td><img src="/assets/img/bin.png" class="icon"></td>
+            </tr>
+            <tr>
+                <td scope="row">XXXXXXXXX</td>
+                <td>XXXXXXX</td>
+                <td>1</td>
+                <td>$999</td>
+                <td>$999</td>
+                <td><img src="/assets/img/bin.png" class="icon"></td>
+            </tr>
+            </tbody>
+        </table>
+        
+    </div>
+    <div class="row">
+        <div class="mx-auto col-8">
+            <hr>
+        </div>
+    </div>
+
+
+    <form action="">
+        <fieldset>
+            <div class="container mx-auto w-50 mb-2 " style="margin: 50px; padding: 20px;background-color: #FFF5F5; border-radius: 10px;">
+                <div style="padding: 20px;">
+                    <legend>買家資訊</legend>
+                    <hr>
+                    <div class="row">
+                        <label for="inputName" class="form-label">姓名</label>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="姓" aria-label="First name">
                         </div>
-                        <div class="mt-4 mb-3 row p-e-0 ">   <!--<class=gx-1>可調圖片和input的距離-->
-                            <div class="inputw ">
-                                <!-- <span class="col-auto"><img src="../assets/img/user.png" alt=""></span> -->
-                                <input type="text" name="account number" class="form-control col-auto border-0  " id="exampleInputPassword1" placeholder="會員帳號" >
-                            </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="名" aria-label="Last name">
                         </div>
-                        <div class="mb-3 row mt-4  ">
-                            <!-- <span class="col-auto"><img src="../assets/img/lock.png" alt=""></span> -->
-                            <div class="inputw">
-                                <input type="password" name="password" class="form-control col-auto border-0  " id="exampleInputPassword1" placeholder="會員密碼">
-                            </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="inputAddress" class="form-label" style="padding: 5px;">地址</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
                         </div>
-                        <div class="pb-3 my-5 text-center ">
-                            <button type="submit" class="btn  rounded-0 w-50 btn-black text-light">登入</button>
+                        <div class="col-2">
+                            <label for="inputPostalcode" class="form-label" style="padding: 5px;">郵遞區號</label>
+                            <input type="text" class="form-control" id="inputPostalcode" placeholder="">
                         </div>
-                    </form>
-                        </td>
-                    </tr>
+                    </div>
+                    <div class="row">
+
+                    </div>
                 </div>
-                
+                <div style="padding: 20px;">
+                    <legend>付款方式</legend>
+                    <hr>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-4">
+                            <label>貨到付款</label> <br>
+                            <a href="#"><img src="../assets/img/delivery-truck.png" class="icon1"></a>
+                        </div>
+                        <div class="col-4">
+                            <label>信用卡</label> <br>
+                            <a href="#"><img src="../assets/img/credit-card.png" class="icon1"></a>
+                        </div>
+                        <div class="col-4">
+                            <label>ATM</label> <br>
+                            <a href="#"><img src="../assets/img/atm.png" class="icon1"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-light btn-lg mb-2">確認送出</button>
+                </div>
             </div>
-        </div>  
+        </fieldset>
+    </form>
+    <h2 class="text-center mt-5">其他商品</h2>
+
+    <div class="row">
+        <div class="mx-auto col-8">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container mx-auto w-50" style="padding: 20px; background-color:#F5EBEB; border-radius: 10px;">
+        <div class="row">
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <div class="py-5">
@@ -166,6 +253,7 @@
           Copyright © 2023 Daphne.&nbsp;&nbsp;All rights reserved.
         </div>
       </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
-    </body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
 </html>

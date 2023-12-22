@@ -82,7 +82,8 @@
                   <ul class="dropdown-menu dropdown-menu-center" style="background-color: white; border-radius: 0%; border: 1px solid transparent">
                     <li><a class="dropdown-item" href="user-login.html">註冊/登入</a></li>
                     <li><a class="dropdown-item" href="profile.html">會員資料</a></li>
-                    <li><a class="dropdown-item" href="#">訂單資訊</a></li>
+                    <li><a class="dropdown-item" href="Order-information.html">訂單資訊</a></li>
+                    <li><a class="dropdown-item" href="Comment-history.html">歷史評論</a></li>
                   </ul>
                 </li>
               </ul>
@@ -96,24 +97,29 @@
             <img src="../assets/img/almond.jpeg" class="itemimg mt-3" alt="商品圖片" width="50%">
         </div>
         <div class="col-sm-6 ">
-            <h2>自然純粹系列 | 紫色魔力</h1>
+            <h2 class="tcenter">自然純粹系列 | 紫色魔力</h1>
             <div class="py-3">
                 <li>➤ 法國原裝進口</li>
                 <li>➤ 天然植物萃取調製而成</li>
                 <li>➤ 出貨需等待 3-7 個工作天</li>
             </div>
-            <div class="pt-4">
+            <div class="row">
+              <div class="pt-4 col-3">
                 <span class="">建議售價</span>
                 <p class="fs-3 ptext">NT$1,500</p>
+              </div>
+              <div class="col-4  inventory text-end">
+                <p>庫存:120</p>
+              </div>
             </div>
-                <div class="col-7  text-center ">
-                    <div class="shopee-input-quantity">   
-                        <button type="button" class="border-0  bt " id="reduce" onclick="reduce(0)">-</button>
-                        <input type="text" class="itemcount border-0 number" value="1" id="count">
-                        <button type="button" class="border-0 bt" id="add" onclick="add(0)">+</button>
-                    </div>
-                    <button id="addtoshoppingcart" type="submit" class="col-12 mt-4" style="background-color:#F8F1F1; border-radius: 5px;"><img src="../assets/img/shopping-cart-1.png" class="cartimg"> 加入購物車</button> 
-                </div>
+              <div class="col-7 text-center ccol-7">
+                  <div class="shopee-input-quantity">   
+                      <button type="button" class="border-0  bt " id="reduce" onclick="reduce(0)">-</button>
+                      <input type="text" class="itemcount border-0 number" value="1" id="count">
+                      <button type="button" class="border-0 bt" id="add" onclick="add(0)">+</button>
+                  </div>
+                  <button id="addtoshoppingcart" type="submit" class="col-12 mt-4" style="background-color:#F8F1F1; border-radius: 5px;"><img src="../assets/img/shopping-cart-1.png" class="cartimg"> 加入購物車</button> 
+              </div>
         </div>
     </div>
    </div>
@@ -149,7 +155,7 @@
    </div>
    <div class="container mt-5"  > 
     <div>
-      <div class="Functionp col-3 mb-5" ><p>顧客評價</p></div>
+      <div class="Functionp sm-col-3 mb-5" ><p>顧客評價</p></div>
       <div class="shopee-product-rating col-8 mx-auto " >
         <div class="row align-items-center shopee-product-rating-box">
           <div class="col-1 shopee-product-rating__avatar">

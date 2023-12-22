@@ -86,6 +86,10 @@ li{
 display: none;
 }
 
+.inventory{
+padding-top: 55px;
+}
+
 #star-rating label {
 display: block;
 width: 20px;
@@ -93,6 +97,22 @@ height: 20px;
 font-size: 20px;
 color: grey;
 cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+    .tcenter{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .star{padding: 0;}
+    .shopee-product-rating-box{
+        margin-bottom: 25px;
+    }
+    .btn-black{
+        width: 50%;
+    }
+    .ccol-7{
+        width: 100%;
+    }
 }
 
 #star-rating input[type="radio"]:checked ~ label,

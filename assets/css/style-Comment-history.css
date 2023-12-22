@@ -1,0 +1,39 @@
+body{background-color: #F5EBEB;
+    font-family: 'Noto Sans TC';} 
+.star{
+    padding-left: 80px;
+}
+.commentp{
+    padding-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hrm{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.itemimg{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+@media screen and (max-width: 992px) {
+    .commentarea{
+        padding-top: 0px;
+        margin-top: 0px !important;
+    }
+    .w100{
+        width: 100%;
+    }
+    .star{
+        padding-left: 10px;
+    }
+    .commentp{
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sm-t-p{
+        padding-top: 30px;
+    }
+}
