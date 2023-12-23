@@ -7,6 +7,15 @@ body {
     color: #262626 !important;
 }
 
+.dropdown-menu a:active {
+    background-color: white !important;
+    }
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+  }
 @media screen and (min-width: 992px) {
     .nav-link:hover {
         color: #D5B4B4 !important;
@@ -93,4 +102,43 @@ body {
     border: 1px dashed #262626;
     opacity: 0.6;
     margin: 0 10px !important;
+}
+
+.item {
+    text-align: center;
+}
+
+.item img {
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.item-price-name {
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 10px auto 40px auto;
+}
+
+.item a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.divider {
+    color:#262626;
+    opacity: 1;
+}
+
+.footer-text {
+    line-height: 28px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.footer-block {
+    margin: 0 100px;
 }

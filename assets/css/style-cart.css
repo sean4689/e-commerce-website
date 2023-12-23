@@ -1,16 +1,18 @@
 body {
     margin: 0;
     background-color: #F5EBEB;
+    font-family: 'Noto Sans TC' !important;
+    color: #262626 !important;
 }
 
 .icon {
     width: 20px;
-    height: 23px;
+    height: 25px;
 }
 
 .icon1 {
-    width: 168px;
-    height: 168px;
+    width: 100px;
+    height: 100px;
 }
 
 .color {

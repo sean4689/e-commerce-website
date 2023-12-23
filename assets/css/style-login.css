@@ -45,9 +45,6 @@ form{
     background-color:#867070 ;
     color: white;
 }
-.btn:first-child:active{
-    
-}
 .btn:hover {
     background-color: #867070 !important;
     color: white !important;
