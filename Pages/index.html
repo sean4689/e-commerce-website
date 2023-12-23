@@ -2,27 +2,226 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daphne | 精緻生活</title>
-    <link rel="icon" href="img/logo_nobg.ico" type="image/icon" />
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" href="../assets/img/logo_nobg.ico" type="image/icon" />
+    <link rel="stylesheet" href="../assets/css/style-index.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
 </head>
-<body>
-    <div>
-        <p class="head_inform">全館滿 $2000 限時免運  |  滿 $3000 贈送限定提袋</p>
-    </div>
-    <header class="main-header">
-            <div class="container">
-                <nav class="nav1">
-                    <img class="logo" src="img/logo_nobg.png">
-                    <a href="index.html" class="nav_item">首頁</a>
-                    <a href="newest.html" class="nav_item">新品上市</a>
-                    <a href="allitem.html" class="nav_item">所有商品</a>
-                    <a href="question.html" class="nav_item">常見問題</a>
-                    <a href="contact.html" class="nav_item">聯絡我們</a>
-                </nav>
+<body style="background-color: #F5EBEB;">
+    <div class="w-100 text-center py-2" style="background-color: #BC6767; color:white;">
+      全館滿 $2000 限時免運&nbsp;&nbsp;|&nbsp;&nbsp;滿 $3000 贈送限定提袋
+    </div>  
+    <nav class="navbar navbar-expand-lg sticky-md-top mb-5" style="background-color: #F5EBEB;">
+      <div class="container">
+        <a class="navbar-brand mx-auto" href="index.html">
+          <div>
+            <img src="../assets/img/logo_nobg.png" alt="Daphne" width="100%" height="100px">
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="nav1">
+            <ul class="navbar-nav mb-2 mb-md-0 px-4">
+              <li class="nav-item mx-lg-3 pt-lg-5">
+                <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item mx-lg-3 pt-lg-5">
+                <a class="nav-link" href="newest.html">新品上市</a>
+              </li>
+              <li class="nav-item mx-lg-3 pt-lg-5 dropdown">
+                <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false">
+                  所有商品 ▾
+                </a>
+                <ul class="dropdown-menu text-center" style="background-color: white; border-radius: 0%; border: 1px solid transparent" >
+                  <li><a class="dropdown-item" href="#">奇幻香氛系列</a></li>
+                  <li><a class="dropdown-item" href="#">自然純粹系列</a></li>
+                  <li><a class="dropdown-item" href="#">優雅精緻系列</a></li>
+                  <li><a class="dropdown-item" href="#">粉色甜蜜系列</a></li>
+                </ul>
+              </li>
+                <li class="nav-item mx-lg-3 pt-lg-5">
+                  <a class="nav-link active" aria-current="page" href="question.html">常見問題</a>
+                </li>
+                <li class="nav-item mx-lg-3 pt-lg-5">
+                  <a class="nav-link active" aria-current="page" href="contact.html">聯絡我們</a>
+                </li>
+  
+                <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md">
+                  <a class="nav-link active nav-icon-md-1" aria-current="page" href="shopping-cart.html">
+                    <img src="../assets/img/shopping-cart.png">
+                  </a>
+                </li>
+                <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md  ">
+                  <a href="#" class="nav-link active nav-icon-md-1 padd-l-0" crole="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img  src="../assets/img/user.png" title="會員專區">
+                  </a>
+                  
+                  <ul class="dropdown-menu dropdown-menu-center " style="background-color: white; border-radius: 0%; border: 1px solid transparent">
+                    <li><a class="dropdown-item" href="user-login.html">註冊/登入</a></li>
+                    <li><a class="dropdown-item" href="profile.html">會員資料</a></li>
+                    <li><a class="dropdown-item" href="Order-information.html">訂單資訊</a></li>
+                    <li><a class="dropdown-item" href="Comment-history.html">歷史評論</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>            
+            <div class="nav2">
+                <ul class="navbar-nav d-flex justify-content-end mb-2 mb-md-0 px-0">
+                  <li class="nav-item pt-lg-5 navicon">
+                    <a aria-current="page" href="shopping-cart.html">
+                      <img style="width: 70%;" src="../assets/img/shopping-cart.png" title="購物車" >
+                    </a>
+                  </li>
+                  <!-- <li class="nav-item pt-lg-5 navicon">
+                    <a aria-current="page" href="user-login.html">
+                      <img style="width: 70%;" src="../assets/img/user.png" title="會員專區">
+                    </a>
+                  </li> -->
+                  <li class="nav-item pt-lg-5 navicon dropdown ">
+                    <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img style="width: 70%;" src="../assets/img/user.png" title="會員專區">
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-center" style="background-color: white; border-radius: 0%; border: 1px solid transparent">
+                      <li><a class="dropdown-item" href="user-login.html">註冊/登入</a></li>
+                      <li><a class="dropdown-item" href="profile.html">會員資料</a></li>
+                      <li><a class="dropdown-item" href="Order-information.html">訂單資訊</a></li>
+                      <li><a class="dropdown-item" href="Comment-history.html">歷史評論</a></li>
+                    </ul>
+                  </li>
+                </ul>
             </div>
-    </header>
+          </div>
+        </div>
+        <hr>
+      </nav>
+
+      <!--slideshow-->
+      <div class="slideshow-container w-100 h-25">
+        <div class="singleSlide fade">
+            <img src="../assets/img/slideshow1.png"
+            style="width: 100%; "
+            />
+        </div>
+        <div class="singleSlide fade">
+            <img src="../assets/img/slideshow2.png"
+            style="width: 100%;"
+            />
+        </div>
+        <div class="singleSlide fade">
+            <img src="../assets/img/slideshow3.png"
+            style="width: 100%;"
+            />
+        </div>
+    
+        <!--按鈕-->
+        <button class="prev" onclick="plusSlides(-1)"><span>＜</span></button>
+        <button class="next" onclick="plusSlides(1)"><span>＞</span></button>
+    </div>
+
+    <!--暢銷商品區-->
+    <div class="container">
+      <div class="m-lg-5">
+        <div class="mx-auto my-5 text-center bestsell-title">
+          暢銷商品
+        </div>
+        <div class="d-lg-flex d-block justify-content-center">
+          <div class="bestsell-item">
+            <div class="bestsell-img">
+              <img class="w-100" src="../assets/img/almond.jpeg">
+            </div>
+            <div class="bestsell-name text-center p-3">
+              奇幻香氛系列&nbsp;&nbsp;|&nbsp;&nbsp;甜蜜杏仁
+            </div>
+            <div class="bestsell-price text-center">
+              NT$1,500
+            </div>
+            <div class="btn-checkitem text-center py-3">
+              <button type="button" class="btn" style="border: 1px solid #262626; border-radius: 0%;">&nbsp;&nbsp;查看商品頁面&nbsp;&nbsp;</button>
+            </div>
+          </div>
+          <div class="bestsell-item px-5">
+            <div class="bestsell-img">
+              <img class="w-100" src="../assets/img/vanilla.jpeg">
+            </div>
+            <div class="bestsell-name text-center p-3">
+              優雅精緻系列&nbsp;&nbsp;|&nbsp;&nbsp;甜美香草
+            </div>
+            <div class="bestsell-price text-center">
+              NT$1,500
+            </div>
+            <div class="btn-checkitem text-center py-3">
+              <button type="button" class="btn" style="border: 1px solid #262626; border-radius: 0%;">&nbsp;&nbsp;查看商品頁面&nbsp;&nbsp;</button>
+            </div>
+          </div>
+          <div class="bestsell-item">
+            <div class="bestsell-img">
+              <img class="w-100" src="../assets/img/clear.jpeg"
+            </div>
+            <div class="bestsell-name text-center p-3">
+              粉色甜蜜系列&nbsp;&nbsp;|&nbsp;&nbsp;清新香粉
+            </div>
+            <div class="bestsell-price text-center">
+              NT$2,300
+            </div>
+            <div class="text-center py-3">
+              <button type="button" class="btn btn-checkitem" style="border: 1px solid #262626; border-radius: 0%;">&nbsp;&nbsp;查看商品頁面&nbsp;&nbsp;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="py-5">
+        <hr class="divider">
+      </div>
+      <div class="d-lg-flex d-block justify-content-around">
+        <div class="footer-block my-5">
+          <div class="footer-title">
+            About Us<br><br>
+          </div>
+          <div class="footer-text">
+            <a href="aboutus.html">關於我們</a>
+          </div>
+        </div>
+        <div class="footer-block my-5">
+          <div class="footer-title">
+            Customer Sevice<br><br>
+          </div>
+          <div class="footer-text">
+            <a href="question.html">常見問題</a>
+          </div>
+        </div>
+        <div class="footer-block my-5">
+          <div class="footer-title">
+            Contect Us<br><br>
+          </div>
+          <div class="footer-text">
+              TEL / 03-2659999<br>
+              地址 / 桃園市中壢區中北路200號<br>
+              服務時間 / 週一至週五 09:00~17:00<br>
+              *例假日及國定假日公休
+          </div>
+        </div>
+      </div>
+      <div class="text-center" style="margin: 130px 0 100px 0;">
+        Copyright © 2023 Daphne.&nbsp;&nbsp;All rights reserved.
+      </div>
+    </footer>
+
+    <!--JS & jQuery 引入-->
+    <script src="../assets/JS/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+</script>
 </body>
 </html>

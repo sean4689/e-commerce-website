@@ -1,0 +1,66 @@
+body{background-color: #F5EBEB;
+    font-family: 'Noto Sans TC';} 
+input[type="radio"] { 
+    background-color: #D9D9D9;}
+form{
+    background-color: #FFF5F5;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 12px 12px 12px rgba(93, 79, 79, 0.7);
+}
+.formw{
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.inputw{
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.collapsing {
+    transition: none !important;
+  }
+.datetimepicker{
+    border-radius:0.25rem;
+    border-color: #F5EBEB;
+    font-size: 1rem;
+    line-height: 32px;
+}
+.nav_item{
+    padding: 0 30px 20px 30px;
+    text-decoration: none;
+    color: black;
+}
+.backg1{
+    background-color: #D5B4B4;
+}
+.backg1::after{
+    
+}
+.backg2{
+
+}
+.btn-black{
+    background-color:#867070 ;
+    color: white;
+}
+.btn:hover {
+    background-color: #867070 !important;
+    color: white !important;
+  }
+.btn:link{
+    background-color: #867070 !important;
+    color: white !important;
+  }
+
+.btn{
+    font-size: large;
+}
+
+a{
+    color: #262626 ;
+}
+a:hover{
+    color: #262626 ;
+}

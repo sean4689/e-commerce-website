@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background-color: #F5EBEB;
+    font-family: 'Noto Sans TC' !important;
+    color: #262626 !important;
+}
+
+.title {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.icon1 {
+    width: 70px;
+}

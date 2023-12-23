@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daphne | 精緻生活</title>
+    <link rel="icon" href="img/logo_nobg.ico" type="image/icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style-cart.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-md-top mb-5" style="background-color: #F5EBEB;">
+        <div class="container">
+          <a class="navbar-brand mx-auto" href="index.html">
+            <div>
+              <img src="../assets/img/logo_nobg.ico" alt="Daphne" width="100%" height="100px">
+            </div>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="nav1">
+              <ul class="navbar-nav mb-2 mb-md-0 px-4">
+                <li class="nav-item mx-lg-3 pt-lg-5">
+                  <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                </li>
+                <li class="nav-item mx-lg-3 pt-lg-5">
+                  <a class="nav-link" href="newest.html">新品上市</a>
+                </li>
+                <li class="nav-item mx-lg-3 pt-lg-5 dropdown">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    所有商品 ▾
+                  </a>
+                  <ul class="dropdown-menu" style="background-color: white; border-radius: 0%; border: 1px solid transparent">
+                    <li><a class="dropdown-item" href="#">奇幻香氛系列</a></li>
+                    <li><a class="dropdown-item" href="#">自然純粹系列</a></li>
+                    <li><a class="dropdown-item" href="#">優雅精緻系列</a></li>
+                    <li><a class="dropdown-item" href="#">粉色甜蜜系列</a></li>
+                  </ul>
+                </li>
+                  <li class="nav-item mx-lg-3 pt-lg-5">
+                    <a class="nav-link active" aria-current="page" href="question.html">常見問題</a>
+                  </li>
+                  <li class="nav-item mx-lg-3 pt-lg-5">
+                    <a class="nav-link active" aria-current="page" href="contact.html">聯絡我們</a>
+                  </li>
+    
+                  <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md">
+                    <a class="nav-link active nav-icon-md-1" aria-current="page" href="shopping-cart.html">
+                      <img src="../assets/img/shopping-cart.png">
+                    </a>
+                  </li>
+                  <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md">
+                    <a  class="nav-link active nav-icon-md-1" aria-current="page" href="user-login.html">
+                      <img src="../assets/img/user.png">
+                    </a>
+                </ul>
+              </div>            
+              <div class="nav2">
+                  <ul class="navbar-nav d-flex justify-content-end mb-2 mb-md-0 px-0">
+                    <li class="nav-item pt-lg-5 navicon">
+                      <a aria-current="page" href="shopping-cart.html">
+                        <img style="width: 70%;" src="../assets/img/shopping-cart.png" title="購物車" >
+                      </a>
+                    </li>
+                    <!-- <li class="nav-item pt-lg-5 navicon">
+                      <a aria-current="page" href="user-login.html">
+                        <img style="width: 70%;" src="../assets/img/user.png" title="會員專區">
+                      </a>
+                    </li> -->
+                    <li class="nav-item pt-lg-5 navicon dropdown ">
+                      <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img style="width: 70%;" src="../assets/img/user.png" title="會員專區">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-center" style="background-color: white; border-radius: 0%; border: 1px solid transparent">
+                        <li><a class="dropdown-item" href="user-login.html">註冊/登入</a></li>
+                        <li><a class="dropdown-item" href="profile.html">會員資料</a></li>
+                        <li><a class="dropdown-item" href="#">訂單資訊</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="row">
+            <div class="mx-auto col-8">
+                <hr>
+            </div>
+        </div>
+    <form action="">
+      <fieldset>
+        <div class="container text-center mx-auto w-50 " style="padding:20px ; background-color: #FFF5F5; margin: 50px; border-radius: 10px;">
+            <table class="col-12 mx-auto" >
+                <thead>
+                <tr>
+                    <th >商品名稱</th>
+                    <th >規格</th>
+                    <th >數量</th>
+                    <th >單價</th>
+                    <th >小計</th>
+                    <th ></th>
+                </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                <tr>
+                    <td scope="row">自然純粹系列</td>
+                    <td>茉莉橙子花</td>
+                    <td><button type="button" class="border-0  bt" id="reduce" onclick="reduce1(0)">-</button>
+                        <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
+                        <button type="button" class="border-0 bt" id="add" onclick="add1(0)">+</button></td>
+                    <td>$999</td>
+                    <td>$999</td>
+                    <td><img src="../assets/img/bin.png" class="icon"></td>
+                </tr>
+                <tr>
+                    <td scope="row">自然純粹系列</td>
+                    <td>茉莉橙子花</td>
+                    <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(1)">-</button>
+                        <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
+                        <button type="button" class="border-0 bt " id="add" onclick="add1(1)">+</button></td>
+                    <td>$999</td>
+                    <td>$999</td>
+                    <td><img src="../assets/img/bin.png" class="icon"></td>
+                </tr>
+                <tr>
+                    <td scope="row">自然純粹系列</td>
+                    <td>茉莉橙子花</td>
+                    <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(2)">-</button>
+                        <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
+                        <button type="button" class="border-0 bt " id="add" onclick="add1(2)">+</button></td>
+                    <td>$999</td>
+                    <td>$999</td>
+                    <td><img src="../assets/img/bin.png" class="icon"></td>
+                </tr>
+                <tr>
+                    <td scope="row">自然純粹系列</td>
+                    <td>茉莉橙子花</td>
+                    <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(3)">-</button>
+                        <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
+                        <button type="button" class="border-0 bt " id="add" onclick="add1(3)">+</button></td>
+                    <td>$999</td>
+                    <td>$999</td>
+                    <td><img src="../assets/img/bin.png" class="icon"></td>
+                </tr>
+                </tbody>
+            </table>
+        
+    </div>
+    <div class="row">
+        <div class="mx-auto col-8">
+            <hr>
+        </div>
+    </div>
+
+            <div class="container mx-auto w-50 mb-2 " style="margin: 50px; padding: 20px;background-color: #FFF5F5; border-radius: 10px;">
+                <div style="padding: 20px;">
+                    <legend>買家資訊</legend>
+                    <hr>
+                    <div class="row">
+                        <label for="inputName" class="form-label">姓名</label>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="姓" aria-label="First name">
+                        </div>
+                        <div class="col">
+                        <input type="text" class="form-control" placeholder="名" aria-label="Last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-10">
+                            <label for="inputAddress" class="form-label" style="padding: 5px;">地址</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="">
+                        </div>
+                        <div class="col-2">
+                            <label for="inputPostalcode" class="form-label" style="padding: 5px;">郵遞區號</label>
+                            <input type="text" class="form-control" id="inputPostalcode" placeholder="">
+                        </div>
+                    </div>
+                    <div class="row">
+
+                    </div>
+                </div>
+                <div style="padding: 20px;">
+                    <legend>付款方式</legend>
+                    <hr>
+                    <div class="row text-center justify-content-center">
+                        <div class="col-4">
+                            <label>貨到付款</label> <br>
+                            <a href="#"><img src="../assets/img/delivery-truck.png" class="icon1 pt-2"></a>
+                        </div>
+                        <div class="col-4">
+                            <label>信用卡</label> <br>
+                            <a href="#"><img src="../assets/img/credit-card.png" class="icon1 pt-2"></a>
+                        </div>
+                        <div class="col-4">
+                            <label>ATM</label> <br>
+                            <a href="#"><img src="../assets/img/atm.png" class="icon1 pt-2"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-light btn-lg mb-2" style="font-size: 100%; background-color: #ece1e1;">確認送出</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <h2 class="text-center">其他商品</h2>
+
+    <div class="row">
+        <div class="mx-auto col-8">
+            <hr>
+        </div>
+    </div>
+
+    <div class="container mx-auto w-50" style="padding: 20px; background-color:#F5EBEB; border-radius: 10px;">
+        <div class="row">
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="../assets/img/clear.jpeg" class="item">
+                <div class="text-center pt-4">
+                    <p>自然純粹系列 | 茉莉橙子花</p>
+                    <p>NT$1,500</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="py-5">
+          <hr class="divider">
+        </div>
+        <div class="d-lg-flex d-block justify-content-around">
+          <div class="footer-block my-5">
+            <div class="footer-title">
+              About Us<br><br>
+            </div>
+            <div class="footer-text">
+              <a href="aboutus.html">關於我們</a>
+            </div>
+          </div>
+          <div class="footer-block my-5">
+            <div class="footer-title">
+              Customer Sevice<br><br>
+            </div>
+            <div class="footer-text">
+              <a href="question.html">常見問題</a>
+            </div>
+          </div>
+          <div class="footer-block my-5">
+            <div class="footer-title">
+              Contect Us<br><br>
+            </div>
+            <div class="footer-text">
+                TEL / 03-2659999<br>
+                地址 / 桃園市中壢區中北路200號<br>
+                服務時間 / 週一至週五 09:00~17:00<br>
+                *例假日及國定假日公休
+            </div>
+          </div>
+        </div>
+        <div class="text-center" style="margin: 10px 0 10px 0;">
+          Copyright © 2023 Daphne.&nbsp;&nbsp;All rights reserved.
+        </div>
+      </footer>
+      <script>
+          function reduce1(num) {
+            let input=Number(document.getElementsByClassName('number')[num].value);
+          if (input!=1){
+            document.getElementsByClassName('number')[num].value=input-1;
+          } 
+          }
+          function add1(num) {
+            let input=Number(document.getElementsByClassName('number')[num].value);
+              document.getElementsByClassName('number')[num].value=input+1;
+          }
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

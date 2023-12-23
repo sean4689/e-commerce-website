@@ -1,0 +1,51 @@
+body{background-color: #F5EBEB;
+    font-family: 'Noto Sans TC';} 
+p{
+   padding: 0px 0px 10px 0px;
+}
+.profilebgc{
+    background-color: white  ;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 22px 5px #c89e9e  ;
+}
+.inline-check{
+    display: inline-block;
+    
+}
+@media screen and (min-width: 992px) {
+    
+}
+.rewrite_profile{
+    display: none;
+    animation: fadein 4s
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+input{
+    margin: 0px 0px 10px 0px !important;
+}
+label{
+    margin: 0px 0px 25px 0px
+}
+.btn-black{
+    background-color:#867070 ;
+    color: white;
+}
+.btn:hover {
+    background-color: #867070 !important;
+    color: white !important;
+  }
+.btn:link{
+    background-color: #867070 !important;
+    color: white !important;
+  }
+
+.btn{
+    font-size: large;
+}
