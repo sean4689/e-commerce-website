@@ -1,8 +1,5 @@
 body{background-color: #F5EBEB;
     font-family: 'Noto Sans TC';} 
-.btn-black{
-    background-color:#867070 ;
-}
 p{
    padding: 0px 0px 10px 0px;
 }
@@ -35,4 +32,20 @@ input{
 }
 label{
     margin: 0px 0px 25px 0px
+}
+.btn-black{
+    background-color:#867070 ;
+    color: white;
+}
+.btn:hover {
+    background-color: #867070 !important;
+    color: white !important;
+  }
+.btn:link{
+    background-color: #867070 !important;
+    color: white !important;
+  }
+
+.btn{
+    font-size: large;
 }

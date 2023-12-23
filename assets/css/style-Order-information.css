@@ -12,3 +12,6 @@ body{background-color: #F5EBEB;
     border: 2px solid #867070;
     opacity:1;
 }
+:root {
+    --bs-body-bg: ; 
+  }

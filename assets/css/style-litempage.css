@@ -126,5 +126,17 @@ color: gold;
 }
 .btn-black{
     background-color:#867070 ;
-    color: #262626;
+    color: white;
+}
+.btn:hover {
+    background-color: #867070 !important;
+    color: white !important;
+  }
+.btn:link{
+    background-color: #867070 !important;
+    color: white !important;
+  }
+
+.btn{
+    font-size: large;
 }

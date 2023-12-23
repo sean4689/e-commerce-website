@@ -1,0 +1,192 @@
+body {
+    font-family: 'Noto Sans TC' !important;
+    color: #262626 !important;
+}
+
+.nav-link {
+    color: #262626 !important;
+}
+.dropdown-menu a:active {
+    background-color: white !important;
+}
+@media screen and (min-width: 992px) {
+    .nav-link:hover {
+        color: #D5B4B4 !important;
+    
+        &:after {
+            content: '';
+            width: 90%;
+            height: 1px;
+            display: block;
+            margin: 0 auto;
+            border-bottom: 1px solid #D5B4B4;
+        }
+    }
+}
+
+
+.nav-icon-md-1 img{
+    width: 30px;
+    height: 30px;
+}
+
+.nav-icon-md{
+    display: none;
+}
+
+
+@media screen and (max-width: 992px) {
+    .navicon {
+        display: none;
+    }
+
+    .nav2 {
+        display: none;
+    }
+    .nav-icon-md {
+        display: inline-block;
+    }
+}
+
+.dropdown-item {
+    color:#262626 !important;
+}
+
+.navicon {
+    width: 15% !important;
+    height: 15% !important;
+    margin: 0 15px;
+}
+
+.nav2 {
+    width: 305px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+}
+
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.singleSlide {
+    display: flex;
+}
+
+.singleSlide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/*先給absolute的位置，再用top置中*/
+.prev {
+    left: 10px;
+    border-radius: 50%;
+    border: transparent solid 1px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 17px;
+    color: #262626;
+}
+
+.next {
+    right: 10px;
+    border-radius: 50%;
+    border: transparent solid 1px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 17px;
+    color: #262626;
+}
+
+/*靠上去有反應*/
+.prev:hover,
+.next:hover {
+
+    box-shadow:0 3px 5px #262626;
+}
+
+.prev span,
+.next span {
+    font-weight: 600;
+}
+
+/* 淡入淡出特效*/
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.bestsell-title {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.bestsell-img img {
+    border-radius: 10%;
+}
+
+.bestsell-name {
+    font-size: 20px;
+}
+
+.bestsell-price {
+    font-size: 20px;
+    font-family: 'Noto Sans TC';
+}
+
+.btn-style {
+    border: 1px solid #262626;
+}
+
+.divmargin {
+    margin: 100px auto !important;
+}
+
+.btn:hover {
+    background-color: #262626 !important;
+    color: white !important;
+}
+
+.bestsell-item {
+    padding: 0 60px;
+}
+
+.divider {
+    color:#262626;
+    opacity: 1;
+}
+
+.footer-text {
+    line-height: 28px;
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.footer-block {
+    margin: 0 100px;
+}
