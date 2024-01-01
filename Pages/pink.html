@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daphne | 精緻生活</title>
     <link rel="icon" href="../assets/img/logo_nobg.ico" type="image/icon" />
+    <link rel="stylesheet" href="../assets/css/nav.css">
     <link rel="stylesheet" href="../assets/css/style-allitem.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
   </head>
 </head>
 <body style="background-color: #F5EBEB;">
-  <nav class="navbar navbar-expand-lg sticky-md-top my-4" style="background-color: #F5EBEB;">
+  <nav class="navbar navbar-expand-lg sticky-md-top my-5" style="background-color: #F5EBEB;">
     <div class="container">
       <a class="navbar-brand mx-auto" href="index.html">
         <div>
@@ -34,14 +35,14 @@
               <a class="nav-link" href="newest.html">新品上市</a>
             </li>
             <li class="nav-item mx-lg-3 pt-lg-5 dropdown">
-              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" id="dropdownMenuLink" aria-expanded="false">
                 所有商品 ▾
               </a>
-              <ul class="dropdown-menu" style="background-color: white; border-radius: 0%; border: 1px solid transparent">
-                <li><a class="dropdown-item" href="fantasy.html">奇幻香氛系列</a></li>
-                <li><a class="dropdown-item" href="natural.html">自然純粹系列</a></li>
-                <li><a class="dropdown-item" href="grace.html">優雅精緻系列</a></li>
-                <li><a class="dropdown-item" href="pink.html">粉色甜蜜系列</a></li>
+              <ul class="dropdown-menu text-center" style="background-color: white; border-radius: 0%; border: 1px solid transparent" >
+                <li><a class="dropdown-item" href="../Pages/fantasy.html">奇幻香氛系列</a></li>
+                <li><a class="dropdown-item" href="../Pages/natural.html">自然純粹系列</a></li>
+                <li><a class="dropdown-item" href="../Pages/grace.html">優雅精緻系列</a></li>
+                <li><a class="dropdown-item" href="../Pages/pink.html">粉色甜蜜系列</a></li>
               </ul>
             </li>
               <li class="nav-item mx-lg-3 pt-lg-5">
@@ -56,10 +57,18 @@
                   <img src="../assets/img/shopping-cart.png">
                 </a>
               </li>
-              <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md">
-                <a  class="nav-link active nav-icon-md-1" aria-current="page" href="user-login.html">
-                  <img src="../assets/img/user.png">
+              <li class="nav-item mx-lg-3 pt-lg-5 nav-icon-md  ">
+                <a href="#" class="nav-link active nav-icon-md-1 padd-l-0" crole="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img  src="../assets/img/user.png" title="會員專區">
                 </a>
+                
+                <ul class="dropdown-menu dropdown-menu-center " style="background-color: white; border-radius: 0%; border: 1px solid transparent">
+                  <li><a class="dropdown-item" href="user-login.html">註冊/登入</a></li>
+                  <li><a class="dropdown-item" href="profile.html">會員資料</a></li>
+                  <li><a class="dropdown-item" href="Order-information.html">訂單資訊</a></li>
+                  <li><a class="dropdown-item" href="Comment-history.html">歷史評論</a></li>
+                </ul>
+              </li>
             </ul>
           </div>            
           <div class="nav2">
@@ -89,6 +98,7 @@
           </div>
         </div>
       </div>
+      <hr>
     </nav>
 
     <!--側邊列表-->
