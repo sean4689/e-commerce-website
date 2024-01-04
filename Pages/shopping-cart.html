@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daphne | 精緻生活</title>
-    <link rel="icon" href="../assets/img/logo_nobg.ico" type="image/icon" />
+    <link rel="icon" href="img/logo_nobg.ico" type="image/icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../assets/css/style-cart.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
@@ -103,12 +103,12 @@
     </nav>
     <form action="">
       <fieldset>
-        <div class="container text-center mx-auto w-50 " style="padding:20px ; background-color: #FFF5F5; margin: 50px; border-radius: 10px;">
+        <div class="container text-center mx-auto col-lg-8 col-12 " style="padding:20px ; background-color: #FFF5F5; margin: 50px; border-radius: 10px;">
             <table class="col-12 mx-auto" >
                 <thead>
                 <tr>
                     <th >商品名稱</th>
-                    <th >規格</th>
+
                     <th >數量</th>
                     <th >單價</th>
                     <th >小計</th>
@@ -118,7 +118,7 @@
                 <tbody class="table-group-divider">
                 <tr>
                     <td scope="row">自然純粹系列</td>
-                    <td>茉莉橙子花</td>
+
                     <td><button type="button" class="border-0  bt" id="reduce" onclick="reduce1(0)">-</button>
                         <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
                         <button type="button" class="border-0 bt" id="add" onclick="add1(0)">+</button></td>
@@ -128,7 +128,7 @@
                 </tr>
                 <tr>
                     <td scope="row">自然純粹系列</td>
-                    <td>茉莉橙子花</td>
+
                     <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(1)">-</button>
                         <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
                         <button type="button" class="border-0 bt " id="add" onclick="add1(1)">+</button></td>
@@ -138,7 +138,7 @@
                 </tr>
                 <tr>
                     <td scope="row">自然純粹系列</td>
-                    <td>茉莉橙子花</td>
+
                     <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(2)">-</button>
                         <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
                         <button type="button" class="border-0 bt " id="add" onclick="add1(2)">+</button></td>
@@ -148,7 +148,7 @@
                 </tr>
                 <tr>
                     <td scope="row">自然純粹系列</td>
-                    <td>茉莉橙子花</td>
+
                     <td><button type="button" class="border-0  bt " id="reduce" onclick="reduce1(3)">-</button>
                         <input type="text" class="itemcount border-0 number w-25" style="text-align: center;" value="1" id="count">
                         <button type="button" class="border-0 bt " id="add" onclick="add1(3)">+</button></td>
@@ -161,12 +161,12 @@
         
     </div>
     <div class="row">
-        <div class="mx-auto col-8">
+        <div class="mx-auto col-12 col-lg-8">
             <hr>
         </div>
     </div>
 
-            <div class="container mx-auto w-50 mb-2 " style="margin: 50px; padding: 20px;background-color: #FFF5F5; border-radius: 10px;">
+            <div class="container mx-auto col-12 col-lg-8 mb-2 " style="margin: 50px; padding: 20px;background-color: #FFF5F5; border-radius: 10px;">
                 <div style="padding: 20px;">
                     <legend>買家資訊</legend>
                     <hr>
@@ -180,13 +180,13 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-10">
+                        <div class="col-12 col-lg-10">
                             <label for="inputAddress" class="form-label" style="padding: 5px;">地址</label>
                             <input type="text" class="form-control" id="inputAddress" placeholder="">
                         </div>
-                        <div class="col-2">
-                            <label for="inputPostalcode" class="form-label" style="padding: 5px;">郵遞區號</label>
-                            <input type="text" class="form-control" id="inputPostalcode" placeholder="">
+                        <div class="col-12 col-lg-2">
+                          <label for="inputPostalcode" class="form-label" style="padding: 5px;">郵遞區號</label>
+                          <input type="text" class="form-control" id="inputPostalcode" placeholder="">
                         </div>
                     </div>
                     <div class="row">
@@ -225,23 +225,23 @@
         </div>
     </div>
 
-    <div class="container mx-auto w-50" style="padding: 20px; background-color:#F5EBEB; border-radius: 10px;">
+    <div class="container mx-auto" style="padding: 20px; background-color:#F5EBEB; border-radius: 10px; width: 65%;">
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-12">
                 <img src="../assets/img/clear.jpeg" class="item">
                 <div class="text-center pt-4">
                     <p>自然純粹系列 | 茉莉橙子花</p>
                     <p>NT$1,500</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-12">
                 <img src="../assets/img/clear.jpeg" class="item">
                 <div class="text-center pt-4">
                     <p>自然純粹系列 | 茉莉橙子花</p>
                     <p>NT$1,500</p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-12">
                 <img src="../assets/img/clear.jpeg" class="item">
                 <div class="text-center pt-4">
                     <p>自然純粹系列 | 茉莉橙子花</p>
