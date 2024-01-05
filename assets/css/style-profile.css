@@ -9,11 +9,7 @@ p{
     box-shadow: 0px 0px 22px 5px #c89e9e  ;
 }
 .inline-check{
-    display: inline-block;
-    
-}
-@media screen and (min-width: 992px) {
-    
+    display: inline-block; 
 }
 .rewrite_profile{
     display: none;

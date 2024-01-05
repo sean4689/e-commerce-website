@@ -13,3 +13,24 @@ body {
 .icon1 {
     width: 70px;
 }
+
+.pmp p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    h3{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .rwdcenter{
+        text-align: center;
+    }
+    .rwdline{
+        display: block;
+    }
+}

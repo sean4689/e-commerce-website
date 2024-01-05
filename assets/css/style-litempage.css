@@ -115,9 +115,9 @@ cursor: pointer;
     }
 }
 
-#star-rating input[type="radio"]:checked ~ label,
-#star-rating label:hover,
-#star-rating label:hover ~ label {
+#star-rating input[type="radio"]:checked ~ label,/*滑鼠點擊*/
+#star-rating label:hover,/*滑鼠指到的*/
+#star-rating label:hover ~ label /*所有前面星星*/{
 color: gold;
 }
 
