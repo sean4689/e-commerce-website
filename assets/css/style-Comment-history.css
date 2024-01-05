@@ -17,6 +17,9 @@ body{background-color: #F5EBEB;
     border-radius: 10px;
     
 }
+.checked {
+    color: gold;
+  }
 @media screen and (max-width: 992px) {
     .commentarea{
         padding-top: 0px;
