@@ -193,19 +193,51 @@
                     <legend>付款方式</legend>
                     <hr>
                     <div class="row text-center justify-content-center">
-                        <div class="col-4">
-                            <label>貨到付款</label> <br>
-                            <a href="#"><img src="../assets/img/delivery-truck.png" class="icon1 pt-2"></a>
+                        <div class="col-4" id="pay1" style="border-radius: 30px;">
+                          <label>貨到付款</label> <br>
+                          <a onclick="payfun1()"><img src="../assets/img/delivery-truck.png" class="icon1 pt-2"></a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4" id="pay2" style="border-radius: 30px;">
                             <label>信用卡</label> <br>
-                            <a href="#"><img src="../assets/img/credit-card.png" class="icon1 pt-2"></a>
+                            <a onclick="payfun2()"><img src="../assets/img/credit-card.png" class="icon1 pt-2"></a>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4" id="pay3" style="border-radius: 30px;">
                             <label>ATM</label> <br>
-                            <a href="#"><img src="../assets/img/atm.png" class="icon1 pt-2"></a>
+                            <a onclick="payfun3()"><img src="../assets/img/atm.png" class="icon1 pt-2"></a>
                         </div>
                     </div>
+                </div>
+                <div class="container pay" id="delivery" style="display: none;">
+                  <div class="row">
+                    <div class="text-end pt-3 h3">
+                      <p>總計:$999</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="container pay" id="credit" style="display: none;">
+                    <div class="row">
+                      <div class="col-7 colw">
+                        <input type="text" class="form-control" placeholder="卡號 ex:9453 9453 9453 9453" aria-label="cardnum">
+                      </div>
+                      <div class="col-3 colw">
+                        <input type="text" class="form-control" placeholder="安全碼 ex:687" aria-label="code">
+                      </div>
+                      <div class="col-2 colw">
+                        <input type="text" class="form-control" placeholder="日期 ex:01/07" aria-label="date">
+                      </div>
+                    </div>
+                    <div class="text-end pt-3 h3">
+                      <p>總計:$999</p>
+                    </div>
+                </div>
+                <div class="container pay" id="ATM" style="display: none;">
+                  <div class="row">
+                    <p>銀行代碼：888</p>
+                    <p>銀行帳號：4587 9453 8763 4687</p>
+                  </div>
+                  <div class="text-end pt-3 h3">
+                    <p>總計:$999</p>
+                  </div>
                 </div>
                 <div class="d-flex justify-content-center pt-3 ">
                     <button type="submit" class="btn btn-light btn-lg mb-2" style="font-size: 100%; background-color: #ece1e1;">確認送出</button>
@@ -293,6 +325,56 @@
           function add1(num) {
             let input=Number(document.getElementsByClassName('number')[num].value);
               document.getElementsByClassName('number')[num].value=input+1;
+          }
+          function payfun1(){
+            var a=document.getElementById("delivery");
+            var b=document.getElementById("credit");
+            var c=document.getElementById("ATM");
+            b.style.display="none";
+            c.style.display="none";
+            a.style.display="block";
+
+            var a=document.getElementById("pay1");
+            var b=document.getElementById("pay2");
+            var c=document.getElementById("pay3");
+
+            b.style.backgroundColor="#FFF5F5";
+            c.style.backgroundColor="#FFF5F5";
+            a.style.backgroundColor="white";
+
+          }
+          function payfun2(){
+            var a=document.getElementById("delivery");
+            var b=document.getElementById("credit");
+            var c=document.getElementById("ATM");
+            a.style.display="none";
+            c.style.display="none";
+            b.style.display="block";
+
+            var a=document.getElementById("pay1");
+            var b=document.getElementById("pay2");
+            var c=document.getElementById("pay3");
+
+            a.style.backgroundColor="#FFF5F5";
+            c.style.backgroundColor="#FFF5F5";
+            b.style.backgroundColor="white";
+          }
+          function payfun3(){
+            var a=document.getElementById("delivery");
+            var b=document.getElementById("credit");
+            var c=document.getElementById("ATM");
+            a.style.display="none";
+            b.style.display="none";
+            c.style.display="block";
+
+            var a=document.getElementById("pay1");
+            var b=document.getElementById("pay2");
+            var c=document.getElementById("pay3");
+
+            a.style.backgroundColor="#FFF5F5";
+            b.style.backgroundColor="#FFF5F5";
+            c.style.backgroundColor="white";
+
           }
       </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
